@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+#banner
+{
+	background-image: url("../images/5291450.jpg");
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+	text-align: center;
+	
+}
+#banner h1
+{
+	font-size: 50px;
+	padding-top: 20%;
+
+}
+#banner i
+{
+	padding: 10px 20px;
+
+}
+#banner a{
+	color: black;
+}
+#aboutme .hinhanh img
+{
+	height: 300px;
+	padding-top: 30px;
+}
+#aboutme .hinhanh
+{
+	float: left;
+	text-align: right;
+	padding: 50px;
+	width: 30%;
+}
+#aboutme .noidung{
+	float: left;
+	padding: 80px 110px 80px 0;
+	width: 50%;
+}
+#skill{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	text-align: center;
+	grid-column-gap: 30px;
+	padding: 30px 100px;
+	background-color:#F4F4F4;
+}
+#skill p{
+	font-size: 80%;
+}
+#skill p, i, h3{
+	padding-top: 5px;
+}
+#fact .sfact{
+	display: grid;
+    grid-template-columns: auto auto;
+	grid-row-gap: 10px;
+	grid-column-gap: 40px;
+	padding: 30px 50px;
+}
+#fact{
+	background-color: #C2F0E6;
+	padding: 50px;
+}
+#fact h2
+{
+	text-align: center;
+}
+
+.fact1, .fact4, .fact5
+{
+	background-color:#FFD048;
+}
+.fact2, .fact3, .fact6
+{
+	background-color: white;
+}
+.fact1, .fact4, .fact5, .fact2, .fact3, .fact6
+{
+	padding: 10px;
+}
+.portfoliocontent{
+	text-align: center;
+	padding-top: 50px;
+}
+.portfoliocontent ul li{
+	display: inline;
+	padding: 0 20px;
+}
+.portfoliocontent ul{
+	padding-top: 10px;
+}
+.sanpham{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 200px 200px 200px;
+	padding: 10px 300px;
+	grid-row-gap: 15px;
+}
+.sanpham1{
+	background-image: url("../images/sp1.jpg");
+	background-size: cover;
+	width: 200px;
+	background-position: center;
+}
+.sanpham2{
+	background-image: url("../images/sp2.png");
+	background-size: cover;
+	width: 200px;
+	background-position: center;
+}
+.sanpham3{
+	background-image: url("../images/sp3.png");
+	background-size: cover;
+	width: 200px;
+	background-position: center;
+}
+.sanpham4{
+	background-image: url("../images/sp4.png");
+	background-size: cover;
+	width: 200px;
+	background-position: center;
+}
+.sanpham5{
+	background-image: url("../images/sp5.jpg");
+	background-size: cover;
+	width: 200px;
+	background-position: center;
+}
+.sanpham6{
+	background-image: url("../images/sp6.jpg");
+	background-size: cover;
+	width: 200px;
+	background-position: center;
+}
+.sanpham7{
+	background-image: url("../images/sp7.png");
+	background-size: cover;
+	width: 200px;
+	background-position: center;
+}
+.sanpham8{
+	background-image: url("../images/sp8.jpg");
+	background-size: cover;
+	width: 200px;
+	background-position: center;
+}
+.sanpham9{
+	background-image: url("../images/sp9.jpg");
+	background-size: cover;
+	width: 200px;
+	background-position: center;
+}
+.anh img{
+	height: 120px;
+	width: 120px;
+	background-size: cover;
+}
+.anh{
+	margin: 30px 0 0 0;
+}
+#Customersopinion{
+	text-align: center;
+	padding: 80px 100px;
+}
+.nhanxet{
+	background-color:#FFD048;
+	padding: 30px 0;
+}
+#GETINTOUCH{
+	text-align: center;
+}
+.lienhe{
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-row-gap: 15px;
+	padding: 30px 175px 100px 175px;
+}
+#footer i
+{
+	padding: 10px 15px;
+
+}
+#footer{
+	background-color: black;
+	text-align: center;
+	padding: 50px 0;
+}
+#footer a{
+	color: white;
+}
+#footer p{
+	color: #999994;
+}
+#ontop{
+	position: fixed;
+	z-index: 100;
+	right:30px;
+	bottom:30px;
+	border: none;
+	width: 30px;
+	display: none;
+}
+#ontop:hover{
+	background-color: cornflowerblue;
+	color: white;
+}
